@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .row {
+        @apply flex flex-wrap w-row -mx-4;
+    }
+}
+.bg-LoginN{
+    background: url(../images/structure.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.height1{
+    height: 1px;
+}
+.dot{
+    background: url(../images/dot.svg);
+    background-repeat: no-repeat;
+    
+}
+.dot1{
+    background: url(../images/dot.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+}
+
+.nav-bg{
+    background-color: #262626	;
+}
