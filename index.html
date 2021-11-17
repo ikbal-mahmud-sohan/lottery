@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project/css/app.css">
+    <script src="https://kit.fontawesome.com/3d4bfcc1b1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>lottery master pro</title>
     <style>
@@ -12,12 +13,8 @@
     background: linear-gradient(to left, rgba(0, 0, 0, 0.329),#000),url('project/images/bg-g.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
+    min-height: 750px;
     
-}
-.stickybtn{
-    background-color: #1fd1f9;
-background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 }
 .top-nav{
     top: 100px;
@@ -35,6 +32,14 @@ background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
     height: 300px;
     width: 100%;
 }
+.hg-150{
+    height: 150px;
+    width: 50%;
+}
+.greenBtn{
+    background-color: #00b712;
+background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
 
     </style>
 
@@ -42,7 +47,7 @@ background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
 <body>
     <div class="relative">
         <div class="px-4">
-            <a class="w-10/12 flex left-1/2 transform -translate-x-1/2 md:hidden mx-auto fixed bottom-4 stickybtn uppercase   hover:bg-opacity-90 rounded-md text-white  mt-10 px-4 py-2  justify-center items-center" href="javascript:;">
+            <a class="w-10/12 flex font-bold left-1/2 transform -translate-x-1/2 md:hidden mx-auto fixed bottom-4 greenBtn uppercase   hover:bg-opacity-90 rounded text-white  mt-10 px-4 py-2  justify-center items-center" href="javascript:;">
                 download app now
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-4" viewBox="0 0 20 20" fill="currentColor">
@@ -56,23 +61,23 @@ background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
             <div class="navigation nav-bg shadow-2xl fixed w-full">
                 <div class="container mx-auto">
                    <div class="flex flex-wrap justify-between items-center py-6">
-    
-    
                     <div class="px-4 py-2">
                        <p id="logo" class="px-2 text-sm uppercase cursor-pointer text-white hover:text-yellow-500">lottery master</p>
                     </div>
                     <div class="hidden md:inline-block px-4 py-2">
                         <div class="flex flex-wrap justify-end">
                             <ul class="flex items-center  px-4 py-2">
-                                <li><a class="px-2 uppercase text-white hover:text-yellow-500" href="javascript:;">home</a></li>
-                                <li><a class="pl-2 uppercase text-white hover:text-yellow-500" href="javascript:;">about us</a></li>
+                                <li><a class="px-2 uppercase text-white hover:text-yellow-500" href="index.html">home</a></li>
+                                <li><a class="pl-2 uppercase text-white hover:text-yellow-500" href="project/include/about.html">about us</a></li>
+                                <li><a class="pl-2 uppercase text-white hover:text-yellow-500" href="project/include/contactUs.html">contact us</a></li>
+                                <li><a class="pl-2 uppercase text-white hover:text-yellow-500" href="project/include/privacy-policy.html">privacy policy</a></li>
                             </ul>
                             
                         </div>
                     </div>
                     <div class="px-4 py-2">
                         <div class="flex items-center">
-                            <a class="md:px-4 px-2 font-bold text-sm py-2 rounded-md bg-try3xred  uppercase text-white" href="javascript:;">
+                            <a class="md:px-4 px-2 font-bold text-xs py-2 rounded-md bg-try3xred  uppercase text-white" href="javascript:;">
                                 download app
                             </a>
                             <p id="Lmenu" class="px-2 hidden">
@@ -98,30 +103,34 @@ background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
                 </div>
                 <div id="mobilenavcon" class="hidden absolute w-1/2 md:w-1/3 top-nav  min-h-screen right-0 nav-bg shadow-2xl">
                     <ul class="w-full">
-                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="javascript:;">home</a></li>
-                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="javascript:;">about us</a></li>
-                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="javascript:;">contact us</a></li>
-                        <li class="w-full px-4 py-4"><a class="pl-2 uppercase text-white hover:text-yellow-500" href="javascript:;">our goal</a></li>
+                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="index.html">home</a></li>
+                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="project/include/about.html">about us</a></li>
+                        <li class="w-full px-4 border-b border-gray-600 py-4"><a class="px-2 uppercase text-white hover:text-yellow-500" href="project/include/contactUs.html">contact us</a></li>
+                        <li class="w-full px-4 py-4"><a class="pl-2 uppercase text-white hover:text-yellow-500" href="project/include/privacy-policy.html">privacy policy</a></li>
                     </ul>
-    
-    
                    </div>
             </div>
-
-
         </div>
         <div class="w-full shadow-md">
             <div class="bg-img flex items-center ">
                 <div class="container mx-auto">
-                    <div class="flex flex-wrap items-center pt-28 pb-10">
-                        <div class="w-full py-2 px-4 md:w-2/5">
-                            <img  class="hg-300" src="project/images/1.jpg" alt="">
-                        </div>
-                        <div class="w-full py-2 px-4 md:w-1/5">
-                            <img  class="hg-300" src="project/images/2.0.jpg" alt="">
+                    <div class="flex flex-wrap items-center py-4">
+                        
+                        <div class="w-full py-2 px-8 md:w-1/5">
+                            <img  class="hg-150" src="project/images/2.0.jpg" alt="">
 
                         </div>
-                        <div class="w-full py-2 px-4 md:w-2/5">
+                        <div class="w-full md:hidden py-2 px-8 md:w-1/5">
+                            <a class="w-full flex  font-bold  mx-auto  greenBtn uppercase   hover:bg-opacity-90 rounded text-white px-4 py-2  justify-center items-center" href="javascript:;">
+                                install now
+                                <span class=" text-xl px-2">
+                                    <i class="fab fa-android"></i>
+                                      
+                                </span>
+                            </a> 
+
+                        </div>
+                        <div class="w-full py-2 px-8 md:w-2/5">
                             <img  class="hg-300" src="project/images/3.0.jpg" alt="">
 
                         </div>
@@ -247,14 +256,15 @@ background-image: linear-gradient(316deg, #dbcbd8 0%, #2e4057 74%);
             </div>
             <div class="w-full md:w-1/4 py-4  px-4">
                 <ul>
-                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="javascript">lottery master pro</a></li>
-                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="javascript">contuct us</a></li>
-                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="javascript">About us</a></li>
+                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="index.html">home</a></li>
+                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="project/include/about.html">About us</a></li>
+                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="project/include/contactUs.html">contuct us</a></li>
+                    <li><a class="text-white py-2 px-2 capitalize text-xl" href="project/include/privacy-policy.html">privacy policy</a></li>
                 </ul>
             </div>
             <div class="w-full md:w-1/4 py-4 px-6 text-left md:text-center">
                 <ul>
-                    <li><a class="text-white py-2 capitalize text-xl" href="javascript">kolkata.india</a></li>
+                    <li><a class="text-white py-2 capitalize text-xl" href="javascript:;">kolkata.india</a></li>
                 </ul>
             </div>
             <div class="w-full md:w-1/4 py-4 px-6">
